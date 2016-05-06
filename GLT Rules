@@ -1,0 +1,207 @@
+RULES:
+
+Tier 1:
+1: Ent. Locus Object is A and does not have a non C4ii info output
+2: Enterprise Object is B or div and does not have a non C4ii info output
+3: Enterprise Object is C or has a non C4ii info output
+4: Enterprise Object is D and does not have a non C4ii info output
+5: Enterprise Object of E and does not have a non C4ii info output
+6: Enterprise Object of F and not have a non C4ii info output
+
+Tier 2
+1A	Real Estate Resource Products	RP
+1B	Real Estate Activity Products	AP
+2A	Equipment Resource Products	RP
+2B	Equipment activity products	AP
+3A	Information Resource Products	Enterprise is RP
+3B	Information activity products	Enterprise is AP
+4A	Financial Resource Products	RP
+4B	Financial activity Products	AP
+5A	Energy for Equipment or diversified resources	 Either Customer or Customer of Customer final resource locus is E4 2.2.2 B or E4 2.2.2 Div
+5B	Food	 Either Customer or Customer of Customer final resource locus is E4 2.2 F
+5C	Medicine	Either Customer or Customer of Customer final resource locus is E4 2.3.2
+6A	Activity Products that act on people	AP
+6B	Resource Products that act on People	RP
+
+Tier 3
+1A1	Real Estate Developers	Enterprise activity is 2.2.2
+1A2	Real Estate Distributors	Enterprise activity is 1.3.2, 3.3.2, or 3.1.2
+1B1	Real Estate Contract Builders	Enterprise Locus is 2.2.2
+1B2	Real Estate Brokers	Enterprise locus is 1.1.2 or 3.1.2
+1B3	Real Estate maintenance or repair services	Enterprise locus is 2.2.3 or 2.3.2
+1B4	Real Estate Management Services	Enterprise locus is 4.2.2
+
+2A1	Equipment manufacturers	Enterprise Activity is 2.2.2
+2A2	Equipment Distributer	Enterprise Activity is 1.3.2, 3.1.2, or 3.3.2
+
+2B1	Transportation related services of Equipment or diversified resources	Enterprise is  1.2
+2B2	Equipment Storage	Enterprise is 1.3.2
+2B3	Contract Equipment Manufacturing	Enterprise is 2.2.2
+2B4	Equipment Maintenance or Repair	Enterprise is 2.2.3 or 2.3.2
+2B5	Equipment brokers	Enterprise is 1.1.2 or 3.1.2
+
+
+3A1	Information Products meant to inform	Enterprise object is C2
+3A2	Information Products meant to influence	Enterprise object is C3
+3A3	Information Products meant to command	Enterprise object is C4
+
+3B1	Procurement related services	Enterprise activity is 1.1
+3B2	Information Transportation related services	Enterprise activity is 1.2
+3B3	Security Services	Enterprise activity is 1.3.1
+3B4	Outsourced HR	Enterprise activity is 1.3.3 F
+3B5	Design Related Services	Enterprise activity is 2.1.2
+3B6	Contract Printing	Enterprise activity is 2.2.2
+3B7	Quality control related services	Enterprise activity is 2.3
+3B8	Advertising or Market Research	Enterprise activity is 3.1.1
+3B9	Consulting related services	Enterprise activity is 4
+3B10	Information Storage Services	Enterprise activity is 1.3.2
+3B11	Research services	Enterprise activity is 2.1.1
+3B12	Custodian Banking	Enterprise activity is 3.3.3
+
+4A2	Financial Producer	Enterprise activity is 2.2.2
+4A1	Financial Distributor	Enterprise activity is 1.3.2, 3.3.2, or 3.1.2
+4B1	Financial Brokers 	Enterprise activity is  1.1.2 or 3.1.2
+4B2	Money deposits and transport related services	Enterprise activity is 3.2 or 3.3.2
+4B3	Asset managers or Funds	Enterprise activity is 4.2.2
+
+5A1	Energy for Equipment or diversified resources resource products	RP
+5A2	Energy for Equipment or diversified resources Activity Products	AP
+5B1	Food Resource Products	RP
+5B2	Food Activity Products	AP
+5C1	Medicinal Resource Products	RP
+5C2	Medicinal activity products	AP
+
+6A1	Personal Maintenance  Services	Enterprise Activity is 2.2.3
+6A2	Medical Service Providers	Enterprise Activity is 2.3.2
+6A3	Entertainment services	Enterprise activity is 2.2.2
+6A4	Employee relocation services	Enterprise activity is 1.2.1
+6A5	Transportation of People	Enterprise Activity is 1.2.2
+6A6	Prison Operators	Enterprise activity is 1.3.2
+6A7	Employee Recruitment Services	Enterprise activity is 1.1.2
+
+6B1	Temporary Staffing	Enterprise Activity is 1.3.2
+
+6A2.A	Medical Service Providers that are paid for through private insurance	3.3.2 D3ii intermediary
+6A2.B	Medical Service Providers that are paid for through government insurance	4.2.2 F intermediary
+6A2.C	Medical Service Providers that are paid for without health insurance	No intermediary
+
+
+
+Tier 4
+
+1A1.A	Storage space Developers	WG is (A4ii) 1.3.2
+1A1.B	Medical Research Facilities Developers	WG is 2.1.1 E, C of C Fr is E4 2.3.2
+1A1.C	Event Space developers	WG is (DR) 2.2.2 F
+1A1.D	Developers of retail space	WG is 3.1.2
+1A1.E	Developers of Medical treatment space	WG is 2.3.2 F
+1A1.F	Developers of Production space	WG is 2.2.2 non F
+1A1.H	Distribution Center Developer	WG is (A4ii) 1.2.3
+1A1.G	Developers of real estate used for diverse activities	WG is Div
+1A2.A	Real Estate Operators	Enterprise activity is 1.3.2
+1A2.B	Real Estate Lessors	Enterprise activity is 3.3.2
+1A2.C	Real Estate Seller	Enterprise activity is 3.1.2
+
+1B1.A	 Building Real Estate Contractors strictly for Consumers  	Customer is 1.3.2 F
+1B1.B	 Building Real Estate Contractors for Real Estate Lessors 	Customer is 3.3.2 A4ii
+1B1.C	 Building Real Estate Contractors for Real Estate developers 	Customer is 2.2.2 A RP
+1B1.D	 Building Real Estate Contractors for Equipment manufacturers 	Customer is 2.2.2 B RP
+1B1.E	Building Real Estate Contractors for medicine Producers	Customer is 2.2.2 E RP, C of C FR is E4 2.3.2
+1B1.F	Building Real Estate Contractors for producers of Energy for equipment or diversified resources	Customer is 2.2.2 E RP, C of C FR is E4 2.2.2 B or div
+1B1.G	Building Real Estate Contractors for Medical Treatment Providers	Customer is 2.3.2 F
+1B1.H	 Building Real Estate Contractors for Government	Customer is 4.2.2 F AP
+1B1.I	 Building Real Estate Contractors for diversified Producers	Customer is 2.2.2 Div RP
+1B1.J	 Building Real Estate Contractors for Diversified Customers	Customer is Div
+1B2.A	Real Estate Broker services for Consumers	Customer marker has Consumer
+1B2.B	Real Estate Broker services for Businesses	Customer marker has business and doesn't have Consumer
+1B3.A	Real Estate maintenance or repair services for Businesses	Customer marker has business and doesn't have Consumer
+1B3.B	Real Estate maintenance or repair Services for Consumers	Customer marker has Consumer
+1B3.C	Real Estate maintenance or repair Services for Government	 Customer marker has Government and not Business or Consumer
+1B4.A	Real Estate Management for Businesses	Customer marker has business and doesn't have Consumer
+1B4.B	Real Estate Management for the Government	 Customer marker has Government and not Business or Consumer
+
+2A1.A	Non Info Equipment manufacturers	Does not have object of C in CR AND enterprise object is B1-B3 or Bdiv, And does not have object of C in FR AND enterprise object is B4
+2A1.B	 Info Equipment manufacturers	Has object of C in CR AND enterprise object is B1-B3 or Bdiv, or has object of C in FR AND enterprise object is B4
+2A2.A	Renter	Enterprise Activity is 1.3.2
+2A2.B	Lessor	Enterprise Activity is 3.3.2
+2A2.C	Seller	Enterprise Activity is 3.1.2
+
+2B1.A	Freight Forwarding of Equipment or diversified Resources	Enterprise is  1.2.1
+2B1.B	Transportation of Equipment or diversified resources	Enterprise is  1.2.2
+2B1.C	Temporary Storage Services	Enterprise is  1.2.3
+2B2.A	Stores Final Equipment	Enterprise object is B4
+2B2.B	Stores Waste	Enterprise object is B1i
+2B3.A	Contract Equipment Manufacturing for Equipment manufacturers	Customer is 2.2.2 B
+2B3.B	Contract Equipment Manufacturing for diversified producers	Customer is 2.2.2 Div
+2B3.C	Contract Equipment Manufacturing for energy for equipment or diversified resources companies	Customer object is E, C of C final resource is E 2.2.2 B or div
+2B3.D	Contract Equipment Manufacturing for Telecoms	Customer is (B4iii) 1.2.2 Cdiv
+2B3.E	Contract Equipment Manufacturing for the government	Customer is 4.2.2 F
+2B4.A	Equipment Maintenance or repair services for equipment used to transport	2nd WG is B4 1.2.2 F or Div
+2B4.B	Equipment Maintenance or repair services for equipment used for Telecommunications	2nd WG is (B4iii) 1.2.2 Cdiv
+2B4.C	Equipment Maintenance or repair services for equipment used for data storage	2nd WG is (B4ii) 1.3.2 Cdiv
+2B4.D	Maintenance or repair services of  equipment used for the military	2nd WG is 1.3.1 Div
+2B4.E	Maintenance or repair services of  equipment used for research	2nd WG is 2.1.1 * (C2iii)
+2B4.F	Maintenance or repair services of  equipment used to act on active components	2nd WG object is B3
+2B4.G	Maintenance or repair services of  equipment used to produce energy for equipment or diversified resources	2nd WG is 2.2.2 E, C of C FR 1 is E 2.2.2 B or div
+2B4.H	Maintenance or repair services of  equipment used to medically treat people	2nd WG is 2.3.2 F
+2B4.I	Maintenance or repair services of  equipment used to act on money	2nd WG object is D
+2B4.J	Maintenance or repair services of  equipment used for diversified activities	2nd WG is Div
+2B4.K	Maintenance or repair services of waste	2nd WG is empty
+
+3A1.A	Databases	WG is 1.1.1, 3.1.1, or 4.1.1
+3A1.B	Academic journals or textbooks	 WG is 2.1
+3A1.C	Checkbooks	WG is 3.2.1
+3A1.D	Newspapers	WG is Div
+3A2.A	Consumer Media	Enterprise object is C3i
+3A2.B	Consulting reports	Enterprise object is C3ii
+3A3.A	Patents	Enterprise Object is C4ii
+3A3.B	Software	Enterprise object is C4iii
+
+3B1.A	Research for Procurement  services	Enterprise activity is 1.1.1
+3B1.B	Post Procurement Documentation Services	Enterprise activity is 1.1.3
+3B2.A	Transportation of Information 	Enterprise is 1.2.2
+3B2.B	Set up or Rerouting of information 	Enterprise is 1.2.1 or 1.2.3
+3B3.A	Security for real estate	Enterprise Object of A
+3B3.B	Cyber Security	Enterprise Object of C
+3B5.A	Real Estate Engineering	Enterprise object of A
+3B5.B	Equipment design services	Enterprise object of B
+3B5.C	Schools	Enterprise object of F
+3B6.A	Contract Printing for Businesses	Customer marker has Government and not Business or Consumer
+3B6.B	Contract Printing for Consumers	Customer marker has C
+3B7.A	Medical Diagnostic Services	Enterprise is 2.3.1 F
+3B7.B	Real Estate testing services	Enterprise is 2.3.1 A
+3B7.C	Call Centers or IT Services	Enterprise object is Div
+3B8.A	Advertising Services	Enterprise Info output is C3ii
+3B8.B	Market Research services	Enterprise Info output is C2iii
+3B9.A	Consulting	Enterprise activity is 4.1.2
+3B9.B	Investment Banking Advisory or HR Management	Enterprise activity is 4.2.1
+
+4A1.A	Financial Seller	Enterprise activity is 3.1.2
+4A1.B	Financial lessor	Enterprise activity is 3.3.2
+
+4B1.A	Art Brokers	Enterprise Object is D2i
+4B1.B	Insurance Brokers	Enterprise Object is D3ii
+4B1.C	Derivative contract broker	Enterprise Object is D3iii
+4B1.D	Diversified Securities Brokers	Enterprise Object is Ddiv
+4B2.A	Money Transport related services	Enterprise is 3.2
+4B2.C	Money Deposits	Enterprise is  3.3.2
+4B3.A	Asset Managers	Enterprise is in house
+4B3.B	Funds	Enterprise is outsourced
+
+5A1.A	Producers of energy for equipment or diversified resources 	Enterprise activity is 2.2.2
+5A1.B	Distributors of energy for equipment or diversified resources 	Enterprise activity is 1.3.2, 3.3.2, or 3.1.2
+5A2.A	energy for equipment or diversified resources transportation related services	Enterprise activity is 1.2
+5A2.B	Contract Energy for equipment or diversified resources Production	Enterprise activity is 2.2.2
+5A2.C	Energy for Equipment or diversified resources Brokers	Enterprise activity is 1.1.2 or 3.1.2
+
+5B1.A	Food Producers	Enterprise activity is 2.2.2
+5B1.B	Food Distributer	Enterprise activity is 1.3.2, 3.3.2, or 3.1.2
+5B2.A	Food Transportation	Enterprise activity is 1.2.2
+
+5C1.A	Medicine Producers	Enterprise activity is 2.2.2
+5C1.B	Medicine Distributor	Enterprise Activity is 1.3.2, 3.1.2, or 3.3.2
+5C2.A	Pharmacy Benefit Management Services	Enterprise activity of 1.1.2
+5C2.B	Clinical validation Services	Enterprise activity of 2.1.3
+
+6A2.A	Medical Service Providers that are paid for through private insurance	3.3.2 D3ii intermediary
+6A2.B	Medical Service Providers that are paid for through government insurance	4.2.2 F intermediary
+6A2.C	Medical Service Providers that are paid for without health insurance	No intermediary
